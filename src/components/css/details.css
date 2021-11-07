@@ -1,0 +1,87 @@
+.details {
+    width: calc(30vw - 40px);
+    min-width: 350px;
+    height: 25vh;
+    min-height: 250px;
+    max-height: 300px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #98a39b;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+}
+.details .header {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(55, 168, 70);
+    color: black;
+    text-align: center;
+}
+
+.details .nameField {
+    width: calc(100% - 6px);
+    height: 50px;
+    margin: 3px;
+    background-color: #dedede;
+    border-radius: 2px;
+}
+.details .nameField .label {
+    width: 100%;
+    height: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.details .nameField span {
+    height: 30px;
+    display: block;
+    background-color: #f2f2f2;
+}
+
+.details .siteField {
+    width: calc(100% - 6px);
+    height: 50px;
+    margin: 3px;
+    background-color: #dedede;
+    border-radius: 2px;
+}
+.details .siteField .label {
+    width: 100%;
+    height: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.details .siteField span {
+    height: 30px;
+    display: block;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+}
+
+.details .description {
+    width: calc(100% - 6px);
+    height: calc(100% - 137px);
+    margin: 3px;
+    color: black;
+    background-color: #dedede;
+    border-radius: 2px;
+}
+.details .description .label {
+    width: 100%;
+    height: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0%;
+    text-align: center;
+}
+.details .description span {
+    display: block;
+    height: calc(100% - 20px);
+    overflow-y: scroll;
+    background-color: #f2f2f2;
+    padding: 3px;
+    box-sizing: border-box;
+}

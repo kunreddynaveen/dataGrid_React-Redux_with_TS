@@ -1,0 +1,14 @@
+.gridTable {
+    width: 70vw;
+    min-width: 820px;
+    max-width: 750px;
+    height: 25vh;
+    min-height: 250px;
+    max-height: 300px;
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+}
+.gridTable h3{
+    color: silver;
+}
